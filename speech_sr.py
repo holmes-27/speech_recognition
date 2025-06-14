@@ -9,13 +9,13 @@ with sr.Microphone(sample_rate=16000) as source:
     print("Listening in real-time (Press Ctrl+C to stop)...\n")
     recognizer.pause_threshold = 1.0
     recognizer.phrase_threshold = 0.3
-    recognizer.sample_rate = 48000
     recognizer.dynamic_energy_threshold = True
     recognizer.operation_timeout = 5
     recognizer.non_speaking_duration = 0.5
     recognizer.dynamic_energy_adjustment = 2
     recognizer.energy_threshold = 4000
     recognizer.phrase_time_limit = 10
+    #recognizer.sample_rate = 48000
 
     try:
         while True:
