@@ -16,7 +16,6 @@ with sr.Microphone(sample_rate=16000) as source:
     recognizer.dynamic_energy_adjustment = 2
     recognizer.energy_threshold = 4000
     recognizer.phrase_time_limit = 10
-    print(sr.Microphone.list_microphone_names())
 
     try:
         while True:
