@@ -20,7 +20,7 @@ with mic as source:
 
     try:
         while True:
-            print("🎤 Listening for speech...")
+            print("Listening for speech...")
             audio = recognizer.listen(source, phrase_time_limit=5)
 
             # Save to WAV file
