@@ -1,0 +1,6 @@
+SpeechRecognition
+pyaudio
+sounddevice
+scipy
+whisper
+faster_whisper
