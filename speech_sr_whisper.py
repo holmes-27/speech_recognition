@@ -1,3 +1,5 @@
+# Record voice with speech_recognition, save the temp file and use the file to get the text using Faster Whisper
+
 import speech_recognition as sr
 from faster_whisper import WhisperModel
 import os
