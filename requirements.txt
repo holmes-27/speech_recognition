@@ -3,4 +3,5 @@ pyaudio
 sounddevice
 scipy
 whisper
-faster_whisper
+faster-whisper
+soundfile
